@@ -40,6 +40,7 @@ class CarModel(models.Model):
     def __str__(self):
         return self.name  # Return the name as the string representation
 
+
 # - Many-To-One relationship to Car Make model (One Car Make has many
 # Car Models, using ForeignKey field)
 # - Name
